@@ -1,6 +1,5 @@
 install_cursor_extensions() {
   local extensions=(
-    "astro-build.astro-vscode"
     "atomiks.moonlight"
     "bierner.markdown-mermaid"
     "biomejs.biome"

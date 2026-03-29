@@ -3,7 +3,6 @@ install_brew_libs() {
     "btop"
     "oven-sh/bun/bun"
     "dockutil"
-    "ffmpeg"
     "gh"
     "git"
     "git-lfs"

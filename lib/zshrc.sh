@@ -51,7 +51,7 @@ ensure_oh_my_zsh_git_plugin() {
     BEGIN {
       updated = 0
     }
-    /source[[:space:]]+\$ZSH\/oh-my-zsh\.sh/ && updated == 0 {
+    /oh-my-zsh\.sh/ && updated == 0 {
       print "plugins=(git)"
       updated = 1
     }

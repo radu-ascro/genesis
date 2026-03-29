@@ -1,7 +1,5 @@
 install_brew_casks() {
   local brew_casks=(
-    "1password-cli"
-    "1password"
     "arc"
     "chatgpt"
     "cleanshot"
@@ -14,15 +12,7 @@ install_brew_casks() {
     "github"
     "google-chrome"
     "imageoptim"
-    "nordvpn"
     "notion"
-    "pitch"
-    "readdle-spark"
-    "screen-studio"
-    "signal"
-    "slack"
-    "spotify"
-    "typefully"
     "warp"
     "whatsapp"
     "zoom"
