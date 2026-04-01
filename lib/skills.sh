@@ -10,11 +10,11 @@ install_skill() {
 }
 
 install_skills() {
-  install_skill "vercel-labs/agent-skills" --skill react-best-practices
+  install_skill "vercel-labs/agent-skills" --skill vercel-react-best-practices
   install_skill "vercel-labs/agent-skills" --skill web-design-guidelines
-  install_skill "vercel-labs/agent-skills" --skill composition-patterns
-  install_skill "vercel-labs/agent-skills" --skill react-native-guidelines
-  install_skill "vercel-labs/agent-skills" --skill vercel-deploy-claimable
+  install_skill "vercel-labs/agent-skills" --skill vercel-composition-patterns
+  install_skill "vercel-labs/agent-skills" --skill vercel-react-native-skills
+  install_skill "vercel-labs/agent-skills" --skill deploy-to-vercel
   install_skill "vercel-labs/skills" --skill find-skills
   install_skill "vercel-labs/next-skills" --skill next-best-practices
   install_skill "vercel-labs/next-skills" --skill next-cache-components
